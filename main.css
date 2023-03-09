@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(6, 238, 254);
+}
+h1{
+  color: rgb(255, 254, 255);
+}
+#container{
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+}
+#btn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px; 
+  text-align: center;
+}
+#reklamaa{
+  background-color: rgb(6, 238, 254);
+ border: 0;
+}
